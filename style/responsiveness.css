@@ -1,0 +1,164 @@
+@media screen and (max-width: 980px) {
+  nav{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+  }
+  nav .left{
+    width: 100%;
+    margin-bottom: 1vh; 
+  }
+  nav .right{
+    width: 100%;
+    margin-bottom: 1vh; 
+  }
+  
+  main .firstsection{
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+  .leftsection {
+    font-size: 2rem;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    margin: 4vh auto;
+  }
+  .rightsection{
+    width: 80%;
+    height: fit-content;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+  }
+  .rightsection img{
+    width: 100%;
+    height: 100%;
+  }
+  .content{
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+  .contant{
+    font-size: 0.8em;
+  }
+  .secondsection{
+    height: 100vh;
+  }
+  .secondsection .box{
+    flex-direction: column;
+  }
+  .secondsection .box .vertical{
+    height: unset;
+    margin-left: 32vh;
+    left: 0;
+  }
+  .vertical-title{
+    left: 8vw;
+    top: 3vh;
+  }
+  .vertical-desc{
+    left: 5.5vw;
+    top: 3vh;
+    margin: 2vh auto;
+  }
+  .secondsection .box .vertical ion-icon{
+    top: 3vh;
+    left: 2vw;
+    
+  }
+  form > button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 588px) {
+  nav{
+    height: 6vh;
+  }
+  nav .right{
+    display: none;
+  }
+  main .firstsection{
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 80vh;
+  }
+  .rightsection{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+  }
+  nav .burger{
+    display: block;
+    width: 12vw;
+    height: 3vh;
+  }
+  
+  .rightsection img{
+    width: 100%;
+    height: 100%;
+  }
+  .s1buttons button{
+    font-size: 0.5rem;
+  }
+  .conteinar .serviceBox{
+    height: 15vh;
+  }
+  .conteinar{
+    height: 30vh;
+  }
+  .conteinar .serviceBox:hover .icon {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 50%;
+    top: 3vh;
+    left: calc(50% - 4vw);
+    transition-delay: 0s;
+  }
+  .conteinar .serviceBox .contant{
+    padding: 1vh 0;
+  }
+  .secondsection .box .vertical{
+    margin-left: 10vw;
+  }
+  .vertical-title {
+    left: 10vw;
+    top: 3vh;
+  }
+  .conteinar .serviceBox .contant h2{
+    margin-top: 0.5vh;
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+  .conteinar .serviceBox .contant p{
+    display: none;
+  }
+  .secondsection .box .vertical ion-icon {
+    top: 2vh;
+    left: -18vw;
+  }
+  #footerbox2{
+    display: none;
+  }
+  .project h4 {
+    position: absolute;
+    color: peachpuff;
+    background: #191930;
+    width: 24vw;
+    height: 8vh;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6vw;
+    top: 20vh;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #S4 h1{
+    display: none;
+  }
+}
